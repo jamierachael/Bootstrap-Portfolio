@@ -12,13 +12,14 @@
 
     <title>Hello, world!</title>
     <style>
-        .col-6 {
+        /*   .col-6 {
             border: 1px solid purple;
         }
 
         .col-12 {
             border: 1px solid purple;
         }
+        */
     </style>
 </head>
 
@@ -54,28 +55,32 @@
         <div class="row">
             <div class="col-12 col-md-2"></div>
             <div class="col-12 col-md-4">
-                <h1 class="text-info">About</h1>
+                <h2 class="text-info">Contact</h2>
             </div>
             <div class="col-12 col-md-2">
             </div>
             <div class="col-6 col-md-4">
-                <ul class="nav bg-light">
-                    <li class="nav-item">
-                        <a class="nav-link active text-secondary" href="index.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto bg-light">
+                            <li class="nav-item mr-sm-2">
+                                <a class="nav-link active text-secondary" href="index.html">About Me</a>
+                            </li>
+                            <li class="nav-item mr-sm-2">
+                                <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item mr-sm-2">
+                                <a class="nav-link text-secondary" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
         <div class="row">
 
-            <div class="col-6 col-md-2"></div>
+            <div class="col-6 col-md-2 bg-light"></div>
             <div class="col-6 col-md-8 my-5">
                 <form>
                     <div class="input-group mb-3">
@@ -105,7 +110,7 @@
 
             </div>
 
-            <div class="col-6 col-md-2"></div>
+            <div class="col-6 col-md-2 bg-light"></div>
         </div>
 
 
@@ -121,6 +126,7 @@
                 </footer>
             </div>
         </div>
+
         <!-- End container Div-->
     </div>
 
