@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Jamie Morris Homework-2 Bootsrap-Portfolio -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Bootsrap-Portfolio</title>
     <style>
         /* .col-6 {
             border: 1px solid purple;
@@ -21,11 +22,14 @@
         } */
     </style>
 </head>
+<!-- This is th body -->
+<!-- This has a light background color-->
 
 <body class="bg-light">
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Required for collapsing Nav Bar feauture -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -35,28 +39,30 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <!-- This contains entire page - start container div -->
 
-
-    <!-- Test Nav Bar Plus Brand Above container -->
-    <!-- use mr-auto to shift right, use ml-auto to shift left -->
-
+    <!-- This is the  Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
+        <!-- This is the Nav Bar Brand -->
         <h1 class="navbar-brand bg-info text-white rounded text-center ml-5 px-5">Jamie Rachael</h1>
-
+        <!-- This is the collapsing Nav Bar feauture -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- This places the Nav Bar to the right -->
         <div class="offset-md-5">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--Navbar in unordered list-->
                 <ul class="navbar-nav mx-5">
+                    <!--Nav item and link-->
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">About</a>
                     </li>
+                    <!--Nav item and link-->
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
+                    <!--Nav item and link-->
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
@@ -64,20 +70,26 @@
             </div>
         </div>
     </nav>
-
+    <!-- This contains entire page - start container div -->
+    <!-- This is the container background color -->
     <div class="container bg-white">
-
+        <!-- Row for page heading-->
         <div class="row">
+            <!-- Responsive column for page heading-->
             <div class="col-12 col-sm-12 col-md-4 ol-lg-4 col-xl-4 offset-2 offset-sm-2 offset-md-2">
                 <h2 class="text-info">Contact</h2>
             </div>
-
         </div>
-
+        <!--The two comments below provided by bootstrap column and rows example-->
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
         <div class="row">
+            <!-- This is a row -->
             <div class="col-10 col-sm-10 col-md-8 col-lg-8 col-xl-8 mb-5 offset-1 offset-sm-1 offset-md-2">
+                <!-- This is a form -->
                 <form class="pt-3 mt-3 pb-3 mb-3">
+                    <!-- Start input ground 1 -->
                     <div class="input-group mb-3 mt-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">Name</span>
@@ -85,7 +97,7 @@
                         <input type="text" class="form-control" placeholder="Your Name Here" aria-label="Username"
                             aria-describedby="basic-addon1">
                     </div>
-
+                    <!-- Start input ground 2 -->
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Your Email" aria-label="Email"
                             aria-describedby="basic-addon2">
@@ -93,19 +105,21 @@
                             <span class="input-group-text" id="basic-addon2">@example.com</span>
                         </div>
                     </div>
-
+                    <!-- Start input ground 3 -->
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text">Message</span>
                         </div>
                         <textarea class="form-control" aria-label="With textarea"></textarea>
                     </div>
+                    <!-- This is a button-->
                     <button type="button" class="btn btn-info my-4">Submit</button>
                 </form>
             </div>
         </div>
 
-        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <!-- This is a row -->
+        <!-- This contains a sticky footer -->
         <div class="row">
             <div class="col-12">
                 <div class="footer fixed-bottom py-5 md-5 bg-info">
