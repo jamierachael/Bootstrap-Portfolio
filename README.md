@@ -1,10 +1,30 @@
 # Bootstrap-Portfolio
 
+This project was designed as a homework assignment for UNH's coding bootcamp. This emphasizes the use of Bootstraps grid design to achieve responsiveness for various screensizes and mobile devices.  
+
+Layout and content were built using HTML and Bootstrap CSS using Visual Studio Code editor. An independent style sheet was purposefully omitted. 
+
+This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link. Or, download the sources files to use this as a template.
+
 * [GitHub Repository](https://github.com/jamierachael/Bootstrap-Portfolio)
 * [Deployed GitHub IO](https://jamierachael.github.io/Bootstrap-Portfolio/)
 * [Full Demo Video](https://drive.google.com/file/d/1Jq9obaiLVqnFwOI1yDCwhpeddh-4nzgg/view)
 
 ![Bootstrap-Portfolio Demo](assets/demo/demo.gif)
+
+### Prerequisites
+
+To install this application, you will need a text editor. I recommend Visual Studio Code. 
+
+### Installing
+
+To install this code, download the zip file, or use GitHub's guidelines to clone the repository. 
+
+## Project Requirements 
+
+This project provides a responsive template for a portfolio website using Bootstrap rows and columns. 
+
+Pages include the following: Index, Portfolio, Contact with Bootstrap grid design for screensizes 1140px, 960px, 720px, 540px, -500px. 
 
 ### Summary
 * Recreation of Portfolio from previous project using Bootstrap only
@@ -51,14 +71,14 @@
     * Contact.html
         * Contains a customer interest contact form
 
-### Code Validation 
-    * These use W3C Code Validators for HTML
-    * Please provide feedback whether this image syntax is correct
-        * Format: ![Validator-HTML-Index](assets/images/Validator-HTML-Index)
-        * Format: ![Validator-HTML-Portfolio](assets/images/Validator-HTML-Portfolio)
-        * Format: ![Validator-HTML-Contact](assets/images/Validator-HTML-Contact)
+## Authors
 
+* **Jamie Rachael Morris** - *Initial work* - [Git Hub Profile](https://github.com/jamierachael)
+* UNH Project Design
 
+## Acknowledgments
+
+* Hat tip to UNH for providing project parameters and code examples
 
 
 
