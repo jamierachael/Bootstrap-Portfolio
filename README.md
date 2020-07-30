@@ -1,8 +1,12 @@
 # Bootstrap-Portfolio
-## Homework-2 Bootstrap-Portfolio
 
-* ['Bootstrap-Portfolio'](https://github.com/jamierachael/Bootstrap-Portfolio)
-* ['Bootstrap-Portfolio'](https://jamierachael.github.io/Bootstrap-Portfolio/)
+* [GitHub Repository](https://github.com/jamierachael/Bootstrap-Portfolio)
+* [Deployed GitHub IO](https://jamierachael.github.io/Bootstrap-Portfolio/)
+* [Full Demo Video](https://drive.google.com/file/d/1Jq9obaiLVqnFwOI1yDCwhpeddh-4nzgg/view)
+
+![Bootstrap-Portfolio Demo](assets/demo/demo.gif)
+
+https://youtu.be/8pbXnRtWvWk
 
 ### Summary
 * Recreation of Portfolio from previous project using Bootstrap only
