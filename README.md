@@ -25,7 +25,7 @@
     * Uses col-md-8 for medium screens
     * Changes photos and labels to single line
 
-    ![](assets/images/Portfolio-760.PNG)
+    ![](assets/images/Portfolio-720.PNG)
  * max container width 540px
     * Uses col-sm-10 for small screens
     * Changes photos and labels to single line
