@@ -6,8 +6,6 @@
 
 ![Bootstrap-Portfolio Demo](assets/demo/demo.gif)
 
-https://youtu.be/8pbXnRtWvWk
-
 ### Summary
 * Recreation of Portfolio from previous project using Bootstrap only
 * This project emphasizes the use of repsonsive design using grid system in Bootstrap
@@ -15,21 +13,31 @@ https://youtu.be/8pbXnRtWvWk
 ### This project has responsive grids for:
 * max container width 1140px
     * Uses col-xl-8 for extra large screens
+
+    ![](assets/images/Index-1140.PNG)
 * max container width 960px 
     * Uses col-lg-8 for large screens
     * Resizes img on portfolio page and their associated headings
     * Please note: the headings here become two lines if the heading has two separate words
+
+    ![](assets/images/Contact-960.PNG)
 * max container width 720px
     * Uses col-md-8 for medium screens
     * Changes photos and labels to single line
+
+    ![](assets/images/Portfolio-760.PNG)
  * max container width 540px
     * Uses col-sm-10 for small screens
     * Changes photos and labels to single line
     * Resizes Header
+
+    ![](assets/images/Index-540.PNG)
 * max container width less than 540px
     * Uses col-10 for x-small screens
     * Changes photos and labels to single line
     * Resizes Header
+
+    ![](assets/images/Portfolio-500.PNG)
 
 ### To Execute File:
 > Open in browser
